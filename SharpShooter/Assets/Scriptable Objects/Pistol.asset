@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
   Damage: 2
   Firerate: 0.5
+  hitVFXPrefab: {fileID: 4513166031588332577, guid: 8c013c433a0dc334abefdd07087009e6, type: 3}
