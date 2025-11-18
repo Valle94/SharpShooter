@@ -26,8 +26,8 @@ public class ActiveWeapon : MonoBehaviour
     
     void Update()
     {
-        timeSinceLastShot += Time.deltaTime;
         HandleShoot();
+        HandleZoom();
     }
 
     public void SwitchWeapon(WeaponSO weaponSO)
@@ -44,6 +44,8 @@ public class ActiveWeapon : MonoBehaviour
 
     void HandleShoot()
     {
+        timeSinceLastShot += Time.deltaTime;
+
         if (!starterAssetsInputs.shoot) return;
 
         if (timeSinceLastShot >= weaponSO.Firerate)
@@ -56,6 +58,20 @@ public class ActiveWeapon : MonoBehaviour
         if (!weaponSO.IsAutomatic)
         {
             starterAssetsInputs.ShootInput(false);
+        }
+    }
+
+    void HandleZoom()
+    {
+        if (!weaponSO.CanZoom) return;
+
+        if (starterAssetsInputs.zoom)
+        {
+            Debug.Log("Zooming In");
+        }
+        else
+        {
+            Debug.Log("Not Zooming In");
         }
     }
     
