@@ -30,6 +30,11 @@ public class ActiveWeapon : MonoBehaviour
         HandleShoot();
     }
 
+    public void SwitchWeapon(WeaponSO weaponSO)
+    {
+        Debug.Log($"Player grabbed {weaponSO.name}");
+    }
+
     void HandleShoot()
     {
         if (!starterAssetsInputs.shoot) return;
@@ -43,7 +48,8 @@ public class ActiveWeapon : MonoBehaviour
 
         if (!weaponSO.IsAutomatic)
         {
-        starterAssetsInputs.ShootInput(false);    
+            starterAssetsInputs.ShootInput(false);
         }
     }
+    
 }
