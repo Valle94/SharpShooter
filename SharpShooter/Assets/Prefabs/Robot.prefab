@@ -116,6 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   startHealth: 3
+  robotExplosionVFX: {fileID: 2922196554764125503, guid: bdfad9a6dadcbe8419c8bbde75858b15, type: 3}
 --- !u!136 &1526680492304684360
 CapsuleCollider:
   m_ObjectHideFlags: 0
