@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
   weaponPrefab: {fileID: 1595752024208190049, guid: 3328668b13a0d6345affe596de5b598e, type: 3}
   Damage: 1
-  Firerate: 0.2
+  Firerate: 0.08
   hitVFXPrefab: {fileID: 4513166031588332577, guid: 8c013c433a0dc334abefdd07087009e6, type: 3}
   IsAutomatic: 1
+  CanZoom: 0
+  ZoomAmount: 10
+  ZoomRotationSpeed: 0.3
+  MagazineSize: 48
