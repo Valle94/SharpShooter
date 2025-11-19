@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2780336000339683050}
   - component: {fileID: 2521104123653280483}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 2988450999735099621}
   - component: {fileID: 1716361310439513453}
   - component: {fileID: 6772320337969306690}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Muzzle Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4896,7 +4896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4783605607490073105}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4930,7 +4930,7 @@ GameObject:
   - component: {fileID: 8009900943062069070}
   - component: {fileID: 6379131089063567595}
   - component: {fileID: 9179407671451194401}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Pistol_02_Blue_Team
   m_TagString: Untagged
   m_Icon: {fileID: 0}
