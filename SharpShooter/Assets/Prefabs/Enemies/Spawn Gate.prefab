@@ -81,6 +81,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   startHealth: 3
   robotExplosionVFX: {fileID: 2922196554764125503, guid: bdfad9a6dadcbe8419c8bbde75858b15, type: 3}
+  ammoContainer: {fileID: 3544956763174122433, guid: 92e24e815aaece2478723992c5902083, type: 3}
+  weapons:
+  - {fileID: 3157915139319999990, guid: 25e2f4e94185deb4b82d4f970a9840f6, type: 3}
+  - {fileID: 3985663123703909950, guid: 379df89eefd38464c9fd73f419dccc3b, type: 3}
+  - {fileID: 9152025111982753821, guid: 9d5098ea373934d40b82f66418c6cd26, type: 3}
 --- !u!114 &6450791126121537829
 MonoBehaviour:
   m_ObjectHideFlags: 0
